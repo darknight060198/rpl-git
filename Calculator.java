@@ -4,13 +4,13 @@ public class Calculator {
 	}
 	
 	public float plus (float a, float b) {
-		
-		
+		float res = a + b;
+		return res;
 	}
 	
 	public float minus (float a, float b) {
-		
-		
+		float res = a-b;
+		return res;
 	}
 	
 	public float multiply (float a, float b) {
