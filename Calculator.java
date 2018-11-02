@@ -23,6 +23,14 @@ public class Calculator {
 		
 	}
 	
+
+	public float min (float a, float b){
+		if (a>b){
+			return b;
+		} else {
+			return a;
+		}
+
 	public float max (float a, float b) {
 		return a>b?a:b;
 	}
